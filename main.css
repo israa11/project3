@@ -1,0 +1,175 @@
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+
+.name-game {
+    text-align: center;
+font-size: 30px;
+}
+
+.gameGuess {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    background-color: #eee;
+    min-height: 100vh;
+}
+
+ 
+.inputs{
+   margin-top: 30px;
+    
+}
+.inputs > div span {
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 10px;
+    text-align: center;
+}
+
+
+.text{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border : none;
+    border-bottom: 2px solid black;
+    font-size: 50px;
+    margin:  5px;
+    background-color: white;
+}
+ .disabled{
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.text:focus{
+    outline-color: #ccc;
+}
+.yes-in-place {
+    background-color: #f89e13;
+    border: #f89e13;
+    color: white;
+  }
+
+   .not-in-place {
+    background-color: #18ba89;
+    border: #18ba89;
+    color: white;
+  }
+ .no {
+    background-color: #27303f;
+    border: #27303f;
+    color: white;
+  }
+
+.control{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      
+}
+.control button{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 25px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+    margin-top: 20px;
+}
+
+.control .check{
+    background-color: red;
+  
+  flex: 1;
+}
+.control .hint{
+    background-color: #18ba89;
+    width: fit-content;
+}
+.message {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 20px;
+    span{
+        text-transform: capitalize;
+        color: #f44336;
+        display: block;
+        font-size: 50px;
+        margin-top: 10px;
+    }
+    p {
+        margin-top: 15px;
+      }
+}
+h2 {
+    text-align: center;
+} 
+
+.key-color{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+    margin: 10px  0;
+}
+.key-color .key-text{
+
+
+    
+    font-weight: bold;
+    font-size: 20px;
+    
+    
+}
+
+.key-color .key {
+   
+border-radius: 50%;
+
+width: 30px;
+height: 30px;
+margin-right: 10px;
+
+}
+
+.key-color  .in-place{
+
+    background-color: #f89e13;
+
+}
+
+.key-color  .not-in-place{
+    background-color: #18ba89;
+
+
+}
+.key-color  .no{
+
+    background-color: #27303f;
+
+}
+
+
+
+.footer{
+    width: 100%;
+    background-color: black;
+    height: 75px;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+
+
